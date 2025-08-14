@@ -1,0 +1,9 @@
+.env
+myvenv/
+rag.py
+RAGFAISS.pyp
+ragtest.py
+data/
+chromad_db/
+chroma/
+bdogptv1/
