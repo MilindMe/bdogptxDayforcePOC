@@ -493,7 +493,7 @@ st.divider()
 # Task: Document Querying
 # ---------------------------
 if st.session_state.task == "doc":
-    st.subheader("📄 Document Querying")
+    st.subheader("📄 Document Querying (OFFLINE -> USE CODE GENERATION)")
     with st.expander("System Prompt (read-only)", expanded=False):
         st.code(SYSTEM_PROMPT_DOC, language="markdown")
 
