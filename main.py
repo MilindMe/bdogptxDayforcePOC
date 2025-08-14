@@ -479,7 +479,7 @@ st.caption("Two-task playground: Document Querying & Code Generation (XSLT)")
 
 left, mid, right = st.columns([1, 1, 6])
 with left:
-    if st.button("📄 Document Querying", use_container_width=True):
+    if st.button("📄 Document Querying (OFFLINE)", use_container_width=True):
         st.session_state.task = "doc"
 with mid:
     if st.button("🧩 Code Generation", use_container_width=True):
